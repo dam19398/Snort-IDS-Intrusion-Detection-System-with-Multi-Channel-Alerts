@@ -1,0 +1,2 @@
+# Intrusion-Detection-System-with-Email-and-SMS-Alerting
+This project demonstrates the deployment of a network-based Intrusion Detection System (IDS) capable of monitoring network traffic, detecting suspicious activities, and automatically notifying administrators through email and SMS alerts.  The goal is to improve incident detection and response time by providing real-time security notifications.
