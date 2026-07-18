@@ -1,1 +1,93 @@
+# ======================
+# Snort IDS Project
+# .gitignore
+# Author: Moustapha Damdele
+# ======================
 
+# -------------------------
+# Sensitive credentials
+# -------------------------
+*.env
+.env
+.env.local
+secrets.sh
+credentials.sh
+config/secrets/
+*apikey*
+*api_key*
+*auth_token*
+*webhook_url*
+
+# -------------------------
+# Snort logs & alerts
+# -------------------------
+/var/log/snort/
+*.log
+*.pcap
+*.cap
+alert
+snort.log.*
+snort_*.u2
+barnyard2.waldo
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+/tmp/
+last_snort_alert.txt
+
+# -------------------------
+# System files
+# -------------------------
+# Linux
+.DS_Store
+*~
+.nfs*
+.fuse_hidden*
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Node.js (if used)
+# -------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# -------------------------
+# Editors & IDEs
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Backup files
+# -------------------------
+*.bak
+*.backup
+*.orig
+
+# -------------------------
+# OS generated files
+# -------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
